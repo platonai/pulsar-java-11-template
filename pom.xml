@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>ai.platon.template</groupId>
-  <artifactId>pulsar-java-template</artifactId>
+  <artifactId>pulsar-java-11-template</artifactId>
   <packaging>jar</packaging>
   <version>0.0.1-SNAPSHOT</version>
 
@@ -15,8 +15,15 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <pulsar.version>1.10.3</pulsar.version>
+    <pulsar.version>1.10.5</pulsar.version>
   </properties>
+
+  <repositories>
+    <repository>
+      <id>Central</id>
+      <url>https://repo1.maven.org/maven2/</url>
+    </repository>
+  </repositories>
 
   <dependencies>
 

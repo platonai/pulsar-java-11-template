@@ -1,4 +1,4 @@
-package org.platon.template.amazon;
+package org.platon.template.sites.amazon;
 
 import ai.platon.pulsar.context.PulsarContexts;
 
