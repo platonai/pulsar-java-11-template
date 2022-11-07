@@ -38,7 +38,6 @@ public class BasicUsage {
 ## Continuous Crawler
 
 ```java
-
 public class ContinuousCrawler {
 
     private static void onParse(WebPage page, FeaturedDocument document) {
